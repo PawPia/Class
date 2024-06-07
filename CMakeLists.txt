@@ -3,4 +3,5 @@ project(Classes)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Classes main.cpp)
+add_executable(Classes main.cpp
+        classes.cpp)
